@@ -24,9 +24,14 @@ public class Funcionario extends Pessoa {
         this.salario = salario;
     }
 
+    public void setFuncao(String funcao) {
+        this.funcao = funcao;
+    }
+
     public String getFuncao() {
         return funcao;
     }
+
 
     public String toString() {
         String dataFormatada = formatarData(this.getDataNascimento());
